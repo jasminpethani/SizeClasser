@@ -103,5 +103,5 @@ public struct SizeClasser: OptionSet {
   /// iPad Pro 12.9" maximum length of screen.
   public static let ipadProMaxScreenLength: CGFloat = 1366.0
   /// Returns `true` if device is iPad Pro 12.9"
-  public static let isiPadPro = SizeClasser.maxScreenLength == SizeClasser.ipadProMaxScreenLength
+  public static var isiPadPro = SizeClasser.maxScreenLength == SizeClasser.ipadProMaxScreenLength
 }
